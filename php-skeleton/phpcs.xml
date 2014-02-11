@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="PHP-Skeleton">
+ <description>PHP-Sekelton coding standard</description>
+
+ <!-- Include PSR-2 standard -->
+ <rule ref="PSR2"/>
+</ruleset>
