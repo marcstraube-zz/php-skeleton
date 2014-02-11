@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="PHP-Skeleton"
+         xmlns="http://pmd.sf.net/ruleset/1.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schmaLocation="http://pmd.sf.net/ruleset/1.0.0
+                            http://pmd.sf.net/ruleset_xml_schma.xsd"
+         xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd">
+ 
+ <description>PHP-Skeleton coding standard.</description>
+ 
+ <!-- Code Size Rules -->
+ <rule ref="rulesets/codesize.xml/CyclomaticComplexity" />
+ <rule ref="rulesets/codesize.xml/NPathComplexity" />
+ <rule ref="rulesets/codesize.xml/ExcessiveMethodLength" />
+ <rule ref="rulesets/codesize.xml/ExcessiveClassLength" />
+ <rule ref="rulesets/codesize.xml/ExcessiveParameterList" />
+ <rule ref="rulesets/codesize.xml/ExcessivePublicCount" />
+ <rule ref="rulesets/codesize.xml/TooManyFields" />
+ <rule ref="rulesets/codesize.xml/TooManyMethods" />
+ <rule ref="rulesets/codesize.xml/ExcessiveClassComplexity" />
+ 
+ <!-- Controversial Rules -->
+ <rule ref="rulesets/codesize.xml/Superglobals" />
+ <rule ref="rulesets/codesize.xml/CamelCaseClassName" />
+ <rule ref="rulesets/codesize.xml/CamelCasePropertyName" />
+ <rule ref="rulesets/codesize.xml/CamelCaseMethodName" />
+ <rule ref="rulesets/codesize.xml/CamelCaseParameterName" />
+ <rule ref="rulesets/codesize.xml/CamelCaseVariableName" />
+ 
+ <!-- Design Rules -->
+ <rule ref="rulesets/codesize.xml/ExitExpression" />
+ <rule ref="rulesets/codesize.xml/EvalExpression" />
+ <rule ref="rulesets/codesize.xml/GotoStatement" />
+ <rule ref="rulesets/codesize.xml/NumberOfChildren" />
+ <rule ref="rulesets/codesize.xml/DepthOfInheritance" />
+ <rule ref="rulesets/codesize.xml/CouplingBetweenObjects" />
+ 
+ <!-- Naming Rules -->
+ <rule ref="rulesets/codesize.xml/ShortVariable" />
+ <rule ref="rulesets/codesize.xml/LongVariable" />
+ <rule ref="rulesets/codesize.xml/ShortMethodName" />
+ <rule ref="rulesets/codesize.xml/ConstructorWithNameAsEnclosingClass" />
+ <rule ref="rulesets/codesize.xml/ConstantNamingConventions" />
+ <rule ref="rulesets/codesize.xml/BooleanGetMethodName" />
+ 
+ <!-- Unused Code Rules -->
+ <rule ref="rulesets/codesize.xml/UnusedPrivateField" />
+ <rule ref="rulesets/codesize.xml/UnusedLocalVariable" />
+ <rule ref="rulesets/codesize.xml/UnusedPrivateMethod" />
+ <rule ref="rulesets/codesize.xml/UnusedFormalParameter" />
+</ruleset>
